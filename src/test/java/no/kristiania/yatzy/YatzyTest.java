@@ -30,6 +30,6 @@ public class YatzyTest {
     @Test
     void shouldScoreThreeOfAKind(){
         assertEquals(12, yatzyGame.score(YatzyCategory.THREE_OF_A_KIND, new int[] {4, 4, 6, 4, 2}));
-        assertEquals(10, yatzyGame.score(YatzyCategory.THREE_OF_A_KIND, new int[] {4, 6, 6, 4, 6}));
+        assertEquals(18, yatzyGame.score(YatzyCategory.THREE_OF_A_KIND, new int[] {4, 6, 6, 4, 6}));
     }
 }
